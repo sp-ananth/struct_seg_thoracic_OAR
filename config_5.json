@@ -1,0 +1,17 @@
+{
+  "train_data_paths": "/mnt/dfs/shilpa/eye_project_2/tensorflow-models/workspace/2_fundus_lesion_group_1/lesion_train.csv",
+  "val_data_paths": "/mnt/dfs/shilpa/eye_project_2/tensorflow-models/workspace/2_fundus_lesion_group_1/lesion_val.csv",
+  "n_class": 7,
+  "log_save_dir": "/mnt/dfs/shilpa/eye_project_2/tensorflow-models/workspace/ckpt_logs/lesion_seg/trial_5/",
+  "loss_fn": "generalized_dice",
+  "batch_size": 8,
+  "image_size": [640, 640],
+  "optimizer": "momentum",
+  "learning_rate_base": 1e-2,
+  "warmup_steps": 2000,
+  "decay_rate": 0.95,
+  "decay_steps": 500,
+  "deep_supervision": true,
+  "aux_weight": 0.5,
+  "gpu_id": "1"
+}
