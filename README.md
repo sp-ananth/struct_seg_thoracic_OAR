@@ -1,4 +1,4 @@
-Tensorflow U-Net with Deep supervision
+# Tensorflow U-Net with Deep supervision
 
 This repository contains the following tensorflow scripts with config files tailored to the Organs at Risk segmentation challenge for Thoracic CT scans.
  - data_loader.py: Generic 3D Slice data loader
