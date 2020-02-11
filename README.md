@@ -2,8 +2,6 @@
 
 This repository contains the following tensorflow scripts with config files tailored to the Organs at Risk segmentation challenge for Thoracic CT scans.
 
-![U-Net architecture for image segmentation](U-net_2.png)
-
  - data_loader.py: Generic 3D Slice data loader
  - unet.py: Generic U-Net with Deep Supervision
  - train_utils.py: Functions to compute loss, dice values, add tensorflow summaries and image displays.
